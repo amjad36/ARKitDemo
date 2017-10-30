@@ -20,10 +20,20 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JoZ-B2-v7a">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14x-2B-j5g">
+                                <rect key="frame" x="167.5" y="607" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="1fU-gV-UnH"/>
+                                    <constraint firstAttribute="width" constant="40" id="aVp-OD-bOY"/>
+                                </constraints>
+                                <state key="normal" image="plus_icon"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="14x-2B-j5g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RvY-Z1-XEN"/>
                             <constraint firstItem="JoZ-B2-v7a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YvZ-Tu-Onw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="14x-2B-j5g" secondAttribute="bottom" constant="20" id="coi-ds-drV"/>
                             <constraint firstItem="JoZ-B2-v7a" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cqz-sk-6I2"/>
                             <constraint firstItem="JoZ-B2-v7a" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="nXI-re-o4s"/>
                             <constraint firstItem="JoZ-B2-v7a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="v2P-Gb-smA"/>
@@ -39,4 +49,7 @@
             <point key="canvasLocation" x="-98.400000000000006" y="117.39130434782609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="plus_icon" width="42" height="42"/>
+    </resources>
 </document>
