@@ -8,6 +8,7 @@
 
 import UIKit
 import ARKit
+import FTPopOverMenu_Swift
 
 class ViewController: UIViewController {
 
@@ -32,8 +33,20 @@ class ViewController: UIViewController {
         super.viewWillDisappear(animated)
         sceneView.session.pause()
     }
-
     
+    @IBAction func plusButtonPressed(_ sender: Any) {
+        addBox()
+    }
+    
+    func addBox() {
+        let box = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0)
+        
+        let boxNode = SCNNode()
+        boxNode.geometry = box
+        boxNode.position = SCNVector3(0, 0, -0.2)
+        
+        sceneView.scene.rootNode.addChildNode(boxNode)
+    }
 
 }
 
