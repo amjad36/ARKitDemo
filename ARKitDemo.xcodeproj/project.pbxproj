@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2951E8FC1FBEF70000516348 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 2951E8FA1FBEF70000516348 /* car.dae */; };
+		2951E8FD1FBEF70000516348 /* paperPlane.scn in Resources */ = {isa = PBXBuildFile; fileRef = 2951E8FB1FBEF70000516348 /* paperPlane.scn */; };
+		2951E91D1FC3145700516348 /* candle.scn in Resources */ = {isa = PBXBuildFile; fileRef = 2951E91C1FC3145700516348 /* candle.scn */; };
+		2951E91F1FC3146000516348 /* chair.scn in Resources */ = {isa = PBXBuildFile; fileRef = 2951E91E1FC3146000516348 /* chair.scn */; };
+		2951E9211FC3146900516348 /* cup.scn in Resources */ = {isa = PBXBuildFile; fileRef = 2951E9201FC3146900516348 /* cup.scn */; };
+		2951E9231FC3147200516348 /* lamp.scn in Resources */ = {isa = PBXBuildFile; fileRef = 2951E9221FC3147200516348 /* lamp.scn */; };
+		2951E9251FC3147F00516348 /* vase.scn in Resources */ = {isa = PBXBuildFile; fileRef = 2951E9241FC3147F00516348 /* vase.scn */; };
 		29EF61631FA6F9F400661B39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF61621FA6F9F400661B39 /* AppDelegate.swift */; };
 		29EF61651FA6F9F400661B39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF61641FA6F9F400661B39 /* ViewController.swift */; };
 		29EF61681FA6F9F400661B39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EF61661FA6F9F400661B39 /* Main.storyboard */; };
@@ -17,6 +24,13 @@
 
 /* Begin PBXFileReference section */
 		1B565DF501051FCACAA4E5DF /* Pods_ARKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2951E8FA1FBEF70000516348 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
+		2951E8FB1FBEF70000516348 /* paperPlane.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = paperPlane.scn; sourceTree = "<group>"; };
+		2951E91C1FC3145700516348 /* candle.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = candle.scn; sourceTree = "<group>"; };
+		2951E91E1FC3146000516348 /* chair.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = chair.scn; sourceTree = "<group>"; };
+		2951E9201FC3146900516348 /* cup.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cup.scn; sourceTree = "<group>"; };
+		2951E9221FC3147200516348 /* lamp.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = lamp.scn; sourceTree = "<group>"; };
+		2951E9241FC3147F00516348 /* vase.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = vase.scn; sourceTree = "<group>"; };
 		29EF615F1FA6F9F400661B39 /* ARKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EF61621FA6F9F400661B39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29EF61641FA6F9F400661B39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +62,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2951E8F91FBEF70000516348 /* 3D Objects */ = {
+			isa = PBXGroup;
+			children = (
+				2951E9241FC3147F00516348 /* vase.scn */,
+				2951E9221FC3147200516348 /* lamp.scn */,
+				2951E9201FC3146900516348 /* cup.scn */,
+				2951E91E1FC3146000516348 /* chair.scn */,
+				2951E91C1FC3145700516348 /* candle.scn */,
+				2951E8FA1FBEF70000516348 /* car.dae */,
+				2951E8FB1FBEF70000516348 /* paperPlane.scn */,
+			);
+			path = "3D Objects";
+			sourceTree = "<group>";
+		};
 		29EF61561FA6F9F400661B39 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +97,7 @@
 		29EF61611FA6F9F400661B39 /* ARKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2951E8F91FBEF70000516348 /* 3D Objects */,
 				29EF61621FA6F9F400661B39 /* AppDelegate.swift */,
 				29EF61641FA6F9F400661B39 /* ViewController.swift */,
 				29EF61661FA6F9F400661B39 /* Main.storyboard */,
@@ -150,9 +179,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2951E91F1FC3146000516348 /* chair.scn in Resources */,
+				2951E9211FC3146900516348 /* cup.scn in Resources */,
+				2951E9231FC3147200516348 /* lamp.scn in Resources */,
 				29EF616D1FA6F9F400661B39 /* LaunchScreen.storyboard in Resources */,
+				2951E8FC1FBEF70000516348 /* car.dae in Resources */,
+				2951E9251FC3147F00516348 /* vase.scn in Resources */,
 				29EF616A1FA6F9F400661B39 /* Assets.xcassets in Resources */,
+				2951E8FD1FBEF70000516348 /* paperPlane.scn in Resources */,
 				29EF61681FA6F9F400661B39 /* Main.storyboard in Resources */,
+				2951E91D1FC3145700516348 /* candle.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,8 +400,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jtegroup.demonstration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9cd00d48-3db6-43d9-b65b-cb85a34109cf";
-				PROVISIONING_PROFILE_SPECIFIER = DemonstrationDevlopmentProfile_16Nov;
+				PROVISIONING_PROFILE = "12053c3c-f668-4152-ad95-8686fb1150a5";
+				PROVISIONING_PROFILE_SPECIFIER = DemonstrationDevlopmentProfile_17Nov;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -384,8 +420,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jtegroup.demonstration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9cd00d48-3db6-43d9-b65b-cb85a34109cf";
-				PROVISIONING_PROFILE_SPECIFIER = DemonstrationDevlopmentProfile_16Nov;
+				PROVISIONING_PROFILE = "12053c3c-f668-4152-ad95-8686fb1150a5";
+				PROVISIONING_PROFILE_SPECIFIER = DemonstrationDevlopmentProfile_17Nov;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
